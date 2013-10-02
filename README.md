@@ -21,3 +21,11 @@ Steps:
 * Read `README.txt`
 * Each subdirectory has a `README.txt` with individual demo steps.
 
+Further Reading on Hiera:
+-------------------------
+* [Why Hiera?](http://docs.puppetlabs.com/hiera/1/index.html)
+* [Hiera Complete Example](http://docs.puppetlabs.com/hiera/1/complete_example.html)
+* [The hiera.yaml Config file](http://docs.puppetlabs.com/hiera/1/configuring.html)
+* [hiera-mysql backend](http://www.craigdunn.org/2012/03/introducing-hiera-mysql-mysql-backend-for-hiera/)
+* [hiera-http backend](http://www.craigdunn.org/2012/11/puppet-data-from-couchdb-using-hiera-http/)
+
