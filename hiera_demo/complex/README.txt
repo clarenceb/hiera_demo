@@ -44,4 +44,3 @@ facter fqdn
 # You can define your own custom facts (static or dynamic via code) in other
 # ways.  Not covered in this demo.
 
-

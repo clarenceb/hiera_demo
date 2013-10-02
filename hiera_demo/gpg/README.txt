@@ -29,10 +29,15 @@ $ tree -a .
 ├── puppetmaster_dev.pubkey.txt
 
 # Create a GPG keyring for each puppetmaster.
+#
+# Note: You can skip this step as the GPG keys are already generated as part
+# of the demo repo.
+#
 # Tip: Export the public keys for each puppet master and developer to a central
 #      keyring and put it in VCS.
 #      Keep dev and prod keyrings separate (for security reasons and to ensure we
 #      don't accidently use the wrong public key(s)). 
+#
 # Note: Currently hiera-gpg gem doesn’t support key passphrases.
 
 # 1. Create GPG public and secret key

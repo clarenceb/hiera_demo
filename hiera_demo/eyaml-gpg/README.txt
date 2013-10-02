@@ -40,9 +40,10 @@ sudo gem install hiera-eyaml-gpg
 # New bit it the :gpg_gnupghome: section so eyaml knows where to find the
 # keyring for decrypting data.
 
-# Potential problem with hiera-gpg reafing command line args???
-# --gpg-recipients and --gnuphhome
-# Workaround:
+# NOTE: Potential problem exists with hiera-gpg reading command line args???
+# .e.g --gpg-recipients and --gnuphhome
+# Workaround: copy .gnupg to your HOME dir and then eyaml-gpg will pick up the
+# keyring from there.
 cp -a .gnupng ~
 echo "puppet@dv.example.com" > hiera-eyaml-gpg.recipient
 
