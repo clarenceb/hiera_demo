@@ -1,0 +1,13 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+# A little more organising of configuration into folders
+# and then by the "calling_module" (special puppet variable).
+# Alternative option could be to name your keys "calling_module::key",
+# e.g. "apache::port" then you can keep them in the same file.
+  - '%{env}/%{location}/%{calling_module}'
+  - '%{env}/%{calling_module}'
+  - common
+:yaml:
+  :datadir: './data'

@@ -1,0 +1,14 @@
+---
+:backends:
+  - gpg
+  - yaml
+:hierarchy:
+  - "%{fqdn}"
+  - secret
+  - common
+:yaml:
+  :datadir: './data'
+:gpg:
+  :datadir: './data'
+  :key_dir: './.gnupg'
+

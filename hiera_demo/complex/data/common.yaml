@@ -1,0 +1,14 @@
+magic_word: 'common: magic word'
+other_word: 'common: other word'
+top_secret: 'common: not secret at all.'
+
+users_array:
+  - 'david'
+  - 'joe'
+  - 'franklin'
+
+settings_hash:
+  coffee: Skinny Flat White
+  sugar: 2tsps
+  milk: yes
+

@@ -1,0 +1,12 @@
+magic_word: 'learn: machine-specific magic word is abrakadabra'
+other_word: 'learn: machine-specific other word'
+
+users_array:
+  - 'edward'
+
+settings_hash:
+  coffee:
+        type: latte
+        strong: false
+  sugar: 1tsp
+

@@ -1,0 +1,11 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - "%{fqdn}"
+  - common
+:yaml:
+  :datadir: './data'
+# options are native (default), deep, deeper
+# see: http://docs.puppetlabs.com/hiera/1/lookup_types.html
+:merge_behavior: deeper

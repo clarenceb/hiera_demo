@@ -1,0 +1,6 @@
+magic_word: 'learn: machine-specific abrakadabra'
+other_word: 'learn: woohoo'
+
+users_array: ['edward']
+
+settings_hash: { 'coffee': 'latte', 'sugar': '1tsp' }
