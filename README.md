@@ -2,7 +2,7 @@ hiera demo
 ==========
 
 A series of mini demos that show how you can use `hiera` to manage
-application config external to your app code or puppet manifests.
+application config external to your ruby app code or puppet manifests.
 
 Also shows how to use GPG or PCKS7 to encrypt configuration.
 
@@ -20,3 +20,4 @@ Steps:
 * `cd \vagrant\hiera_demo`
 * Read `README.txt`
 * Each subdirectory has a `README.txt` with individual demo steps.
+
