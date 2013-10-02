@@ -18,4 +18,5 @@ Steps:
 ------
 * Start the VM with `vagrant up`
 * `cd \vagrant\hiera_demo`
-
+* Read `README.txt`
+* Each subdirectory has a `README.txt` with individual demo steps.
