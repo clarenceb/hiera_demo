@@ -1,7 +1,0 @@
-magic_word: 'common: xyzzy'
-other_word: 'common: woah'
-top_secret: 'common: not secret at all'
-
-users_array: ['david', 'joe', 'franklin']
-
-settings_hash: { 'coffee': 'Skinny Flat White', 'sugar': '2tsps' }
